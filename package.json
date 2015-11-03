@@ -1,0 +1,22 @@
+{
+  "name": "sse-hub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sohosai/sse-hub.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sohosai/sse-hub/issues"
+  },
+  "homepage": "https://github.com/sohosai/sse-hub#readme",
+  "dependencies": {
+    "router-line": "^0.2.1"
+  }
+}
