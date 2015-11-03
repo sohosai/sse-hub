@@ -38,7 +38,7 @@ routes.GET('/api/streams/:stream_name/events', function (params, req, res) {
   }
 
   function ping () {
-    res.write(': ping');
+    res.write(': ping\n\n');
   }
 
   var pingTimer = setInterval(ping, 10 * 1000);
