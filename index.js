@@ -23,7 +23,8 @@ routes.GET('/api/streams/:stream_name/events', function (params, req, res) {
 
   res.writeHead(200, {
     'Content-Type': 'text/event-stream',
-    'Cache-Control': 'no-cache'
+    'Cache-Control': 'no-cache',
+    'Access-Control-Allow-Origin': '*'
   });
   res.write('\n');
 
